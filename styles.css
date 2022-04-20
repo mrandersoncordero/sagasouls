@@ -66,7 +66,7 @@ ul{
     right: 30px;
     z-index: 2;
     font-size: 1.5rem;
-    display: none !important;
+    display: none;
 }
 
 
@@ -86,7 +86,9 @@ hr{
     align-items: center;
     justify-content: flex-end;
 }
-
+.nav-menu-right{
+    padding: 30px;
+}
 .btn{
     cursor: pointer;
     display: inline-block;
@@ -216,6 +218,7 @@ hr{
     .menu-btn{
         display: block;
     }
+
     .nav-main ul.nav-menu{
         display: block;
         position: absolute;
