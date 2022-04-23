@@ -39,6 +39,7 @@ ul{
     height: 60px;
     padding: 20px 0;
     width: 90%;
+    z-index: 2;
 }
 .nav-brand{
     width: 50px;
@@ -220,16 +221,25 @@ hr{
     padding: 20px;
 }
 
-@media (max-width: 700px){
+@media (max-width: 700px) {
+
     .menu-btn{
         display: block;
     }
+
+    .nav-main {
+        width: 100%;
+        height: auto;
+        background-color: cccc;
+        height: 100vh;
+    }
+
     .nav-main ul.nav-menu{
         display: block;
         position: absolute;
         top: 0;
         left: 0;
-        background: #2f3640;
+        background: black;
         height: 100%;
         padding: 30px;
         opacity: .9;
@@ -240,25 +250,28 @@ hr{
     .nav-main ul.nav-menu.show{
         transform: translateX(-20px);
     }
+
     .nav-main ul.nav-menu li{
         padding: 20px;
         border-bottom: #ccc solid 1px;
         font-size: 14px;
     }
+
     .nav-menu ul.nav-menu-right{
         margin-right: 50px;
     }
+
     .news-cards{
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .cards-banner-one .content,
-    .cards-banner-two .content{
+    .cards-banner-one .content, .cards-banner-two .content{
         width: 80%;
     }
+
     .footer-links .footer-container{
         grid-template-columns: repeat(2, 1fr);
-}
+    }
 }
 @media (max-width: 480px){
     .news-cards{
