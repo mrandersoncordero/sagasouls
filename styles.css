@@ -30,12 +30,15 @@ ul{
 
 /*Navegation*/
 .nav-main {
+    background: black;
+    position: fixed;
     font-size: 17px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
     padding: 20px 0;
+    width: 90%;
 }
 .nav-brand{
     width: 50px;
@@ -57,6 +60,9 @@ ul{
 .nav-main ul.nav-menu{
     flex: 1;
     margin-left: 20px;
+}
+.nav-menu{
+    display: flex;
 }
 
 .menu-btn{
@@ -218,7 +224,6 @@ hr{
     .menu-btn{
         display: block;
     }
-
     .nav-main ul.nav-menu{
         display: block;
         position: absolute;
