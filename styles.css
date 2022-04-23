@@ -24,13 +24,12 @@ ul{
 .container{
     width: 90%;
     margin: auto;
-  
 }
 
 
 /*Navegation*/
 .nav-main {
-    background: black;
+    background: #000000;
     position: fixed;
     font-size: 17px;
     display: flex;
@@ -43,6 +42,7 @@ ul{
 }
 .nav-brand{
     width: 50px;
+    padding-right: 10px;
 }
 
 /*nav-left*/
@@ -51,6 +51,7 @@ ul{
 }
 .nav-main ul li{
     padding: 10px;
+    margin-left: 15px;
 }
 .nav-main ul li a{
     padding: 2px;
@@ -80,7 +81,8 @@ ul{
 
 /*SHOWCASE*/
 hr{
-    margin: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 65px;
 }
 .showcase{
     width: 100%;
@@ -222,21 +224,25 @@ hr{
 }
 
 @media (max-width: 700px) {
-
+    hr{
+        margin-top: 5px;
+        margin-bottom: 70px;
+    }
     .menu-btn{
         display: block;
+        margin-top: 1.5vh;
+        margin-left: 40px;
     }
-
-    .nav-main {
-        width: 100%;
-        height: auto;
-        background-color: cccc;
-        height: 100vh;
+    
+    .nav-main{
+        height: 70px;
+        height: 15vh;
     }
+    
 
     .nav-main ul.nav-menu{
         display: block;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         background: black;
@@ -256,9 +262,12 @@ hr{
         border-bottom: #ccc solid 1px;
         font-size: 14px;
     }
-
-    .nav-menu ul.nav-menu-right{
+    
+    .nav-menu .nav-menu-right li{
         margin-right: 50px;
+    }
+    .nav-main ul li{
+        padding:40px;
     }
 
     .news-cards{
@@ -274,6 +283,7 @@ hr{
     }
 }
 @media (max-width: 480px){
+    
     .news-cards{
         grid-template-columns: 1fr;
     }
