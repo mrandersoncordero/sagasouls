@@ -81,7 +81,6 @@ ul{
 
 /*SHOWCASE*/
 hr{
-    margin-top: 10px;
     margin-bottom: 65px;
 }
 .showcase{
@@ -224,8 +223,7 @@ hr{
 }
 
 @media (max-width: 700px) {
-    hr{
-        margin-top: 5px;
+    hr{S
         margin-bottom: 70px;
     }
     .menu-btn{
