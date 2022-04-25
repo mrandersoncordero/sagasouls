@@ -41,6 +41,7 @@ ul{
     z-index: 2;
 }
 .nav-brand{
+    margin-left: 10px;
     width: 50px;
     padding-right: 10px;
 }
@@ -93,6 +94,9 @@ hr{
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+}
+.showcase p{
+    font-weight: 500;
 }
 .nav-menu-right{
     padding: 30px;
@@ -179,7 +183,7 @@ hr{
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 20px;
-    color: #fae2e2;
+    color: #ffffff;
 }
 .links{
     display: flex;
@@ -195,7 +199,7 @@ hr{
 
 /*FOOTER LINKS*/
 .footer-links{
-    background: #2f3640;
+    background: #3e454e;
     color: #616161;
     font-size: 12px;
     padding: 35px 0;
@@ -214,7 +218,7 @@ hr{
     line-height: 2.8;
 }
 .footer{
-    background: #2f3640;
+    background: #3e454e;
     color: #616161;
     font-size: 12px;
     padding: 20px 0;

@@ -11,3 +11,60 @@ body{
 	font-size: 16px;
 	font-family: 'Times New Roman', Times, serif;
 }
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+/*Navegation*/
+.nav-main {
+    background: #000000;
+    position: fixed;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    width: 100%;
+    z-index: 2;
+}
+.nav-brand{
+	margin-left: 10px;
+    width: 50px;
+    padding-right: 10px;
+}
+
+/*nav-left*/
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li{
+    padding: 10px;
+    margin-left: 15px;
+}
+.nav-main ul li a{
+    padding: 2px;
+}
+.nav-main ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+.nav-menu{
+    display: flex;
+}
+
+.menu-btn{
+    position:absolute;
+    cursor:pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    font-size: 1.5rem;
+    display: block;
+}
