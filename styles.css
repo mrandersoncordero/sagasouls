@@ -37,7 +37,7 @@ ul{
     align-items: center;
     height: 60px;
     padding: 20px 0;
-    width: 90%;
+    width: 100%;
     z-index: 2;
 }
 .nav-brand{
@@ -223,7 +223,7 @@ hr{
 }
 
 @media (max-width: 700px) {
-    hr{S
+    hr{
         margin-bottom: 70px;
     }
     .menu-btn{
